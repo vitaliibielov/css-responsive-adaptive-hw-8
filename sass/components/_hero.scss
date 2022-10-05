@@ -13,8 +13,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-align: center;
 
   background-color: var(--accent-bg-color);
+
+  @media screen and (max-width: 1199px) {
+    padding: 118px 0;
+    height: 400px;
+  }
 }
 
 .hero__title {
@@ -23,7 +29,7 @@
   margin-left: auto;
   margin-right: auto;
   color: var(--white-text-color);
-  width: 696px;
+  width: 100%;
 
   font-weight: 900;
   font-size: 44px;
@@ -31,4 +37,16 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
+
+  @media screen and (min-width: 480px) {
+    width: 360px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    font-size: 26px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 696px;
+  }
 }
