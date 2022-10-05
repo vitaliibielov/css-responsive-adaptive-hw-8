@@ -1,0 +1,76 @@
+@import './base/nomalize';
+@import './base/reset';
+@import './utils/vars';
+@import './utils/novisible';
+@import './base/list';
+@import './base/link';
+
+//--------- HEADER --------- 
+@import './components/page-header';
+
+// logo
+@import './components/logo';
+
+// nav
+@import './components/nav';
+
+// contacts
+@import './components/contacts';
+
+
+
+//--------- HERO --------- 
+@import './components/hero';
+
+
+
+//--------- FEATURES --------- 
+@import './components/features';
+
+
+
+//--------- OUR-SERVICE --------- 
+@import './components/our-service';
+
+
+
+//--------- OUR-TEAM --------- 
+@import './components/our-team';
+
+
+
+//--------- OUR-TEAM --------- 
+@import './components/clients';
+
+
+
+//--------- FOOTER --------- 
+@import './components/footer';
+
+
+
+//--------- MODAL --------- 
+
+// backdrop
+@import './components/backdrop';
+
+// modal
+@import './components/modal';
+
+
+
+
+
+
+
+
+
+
+
+//--------- PORTFOLIO-PAGE --------- 
+
+// FILTER
+@import './components/filter';
+
+// CASES
+@import './components/cases';

@@ -1,0 +1,32 @@
+.section-service {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.service__list {
+  display: flex;
+}
+
+.service__item {
+  position: relative;
+}
+
+.service__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.service__text {
+  color: var(--white-text-color);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}

@@ -1,0 +1,37 @@
+.feature__main-title {
+  @extend %novisible;
+}
+
+.feature__list {
+  display: flex;
+}
+
+.feature__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.feature__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-bg-color);
+}
+
+.feature__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.feature__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--secondary-text-color);
+
+  line-height: 1.71;
+}
