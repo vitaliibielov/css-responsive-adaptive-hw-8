@@ -466,6 +466,11 @@ button {
   padding-top: 0;
   padding-bottom: 94px;
 }
+@media screen and (max-width: 1199px) {
+  .section-service {
+    display: none;
+  }
+}
 
 .service__list {
   display: -webkit-box;
