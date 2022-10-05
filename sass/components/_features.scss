@@ -3,11 +3,63 @@
 }
 
 .feature__list {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  // display: flex;
 }
 
+.feature__item {
+  width: 100%;
+
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
+
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// ЗРАЗОК
+
+// .features_list {
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 30px;
+//     justify-content: center;
+//   }
+// }
+// .features_item {
+//   width: 100%;
+//   @media screen and (min-width: 768px) {
+//     width: 354px;
+//   }
+//   @media screen and (min-width: 1200px) {
+//     width: 270px;
+//   }
+// }
+// @media screen and (max-width: 767px) {
+//   .features_item:not(:last-child) {
+//     margin-bottom: 30px;
+//   }
+// }
+
+// КІНЕЦЬ ЗРАЗКА
+
 .feature__item:not(:first-child) {
-  margin-left: 30px;
+  // margin-left: 30px;
 }
 
 .feature__icons {
