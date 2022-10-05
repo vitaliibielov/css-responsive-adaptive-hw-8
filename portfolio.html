@@ -14,11 +14,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" /> -->
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- HEADER -->
-    <header class="page-header">
+    <!-- <header class="page-header">
       <div class="container page-header-container">
         <a href="" lang="en" class="logo link"
           >Web<span class="logo__postlabel">Studio</span></a
@@ -58,7 +58,7 @@
           </li>
         </ul>
       </div>
-    </header>
+    </header> -->
 
     <main>
       <section class="section">
@@ -87,6 +87,7 @@
               <a href="" class="cases-link link">
                 <div class="cases-overlay">
                   <img
+                    class="cases-img"
                     src="./img/portfolio/img-0.jpeg"
                     alt="Зображення сайту у ноуті"
                     width="370"
@@ -306,68 +307,70 @@
     <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-container container">
-        <div class="info">
-          <a href="" lang="en" class="footer-logo logo link"
-            >Web<span class="footer-logo__postlabel">Studio</span></a
-          >
-          <address>
-            <ul class="address__list list">
-              <li class="address__item">
-                <a
-                  href="https://goo.gl/maps/3nSZZ6kCtNBki5sE8"
-                  class="address__location link"
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                  >м. Київ, пр-т Лесі Українки, 26</a
-                >
+        <div class="footer-container_main-info">
+          <div class="info">
+            <a href="" lang="en" class="footer-logo logo link"
+              >Web<span class="footer-logo__postlabel">Studio</span></a
+            >
+            <address>
+              <ul class="address__list list">
+                <li class="address__item">
+                  <a
+                    href="https://goo.gl/maps/3nSZZ6kCtNBki5sE8"
+                    class="address__location link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="address__contact link"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address__item">
+                  <a href="tel:+380961111111" class="address__contact link"
+                    >+380961111111</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="join">
+            <h2 class="join__title">приєднуйтесь</h2>
+            <ul class="join__contacts list">
+              <li>
+                <a href="" class="join__socnet link">
+                  <svg class="join__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address__item">
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="address__contact link"
-                  >info@devstudio.com</a
-                >
+              <li>
+                <a href="" class="join__socnet link">
+                  <svg class="join__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="address__item">
-                <a href="tel:+380961111111" class="address__contact link"
-                  >+380961111111</a
-                >
+              <li>
+                <a href="" class="join__socnet link">
+                  <svg class="join__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="" class="join__socnet link">
+                  <svg class="join__icon" width="20" height="20">
+                    <use href="./img/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="join">
-          <h2 class="join__title">приєднуйтесь</h2>
-          <ul class="join__contacts list">
-            <li>
-              <a href="" class="join__socnet link">
-                <svg class="join__icon" width="20" height="20">
-                  <use href="./img/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="join__socnet link">
-                <svg class="join__icon" width="20" height="20">
-                  <use href="./img/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="join__socnet link">
-                <svg class="join__icon" width="20" height="20">
-                  <use href="./img/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a href="" class="join__socnet link">
-                <svg class="join__icon" width="20" height="20">
-                  <use href="./img/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
         <div class="subscribtion">
           <h2 class="subscribtion__title">Підпишіться на розсилку</h2>
