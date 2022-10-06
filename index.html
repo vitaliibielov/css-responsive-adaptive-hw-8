@@ -96,7 +96,11 @@
 
           <ul class="mobile-menu list">
             <li>
-              <a href="./index.html" class="mobile-menu__link mobile-menu__link--current link">Студія</a>
+              <a
+                href="./index.html"
+                class="mobile-menu__link mobile-menu__link--current link"
+                >Студія</a
+              >
             </li>
             <li>
               <a href="./portfolio.html" class="mobile-menu__link link"
@@ -122,10 +126,18 @@
           </ul>
 
           <ul class="mobile-socials list">
-            <li class="mobile-socials__item"><a href="" class="mobile-socials__link link">Instagram</a></li>
-            <li class="mobile-socials__item"><a href="" class="mobile-socials__link link">Twitter</a></li>
-            <li class="mobile-socials__item"><a href="" class="mobile-socials__link link">Facebook</a></li>
-            <li class="mobile-socials__item"><a href="" class="mobile-socials__link link">LinkedIn</a></li>
+            <li class="mobile-socials__item">
+              <a href="" class="mobile-socials__link link">Instagram</a>
+            </li>
+            <li class="mobile-socials__item">
+              <a href="" class="mobile-socials__link link">Twitter</a>
+            </li>
+            <li class="mobile-socials__item">
+              <a href="" class="mobile-socials__link link">Facebook</a>
+            </li>
+            <li class="mobile-socials__item">
+              <a href="" class="mobile-socials__link link">LinkedIn</a>
+            </li>
           </ul>
         </div>
 
@@ -323,8 +335,12 @@
             <li class="service__item">
               <img
                 class="service__img"
-                src="./img/box-1.jpg"
                 alt="Програміст пише код"
+                srcset="
+                  ./img/about_us/direction-1-370.jpg 1x,
+                  ./img/about_us/direction-1-740.jpg 2x
+                "
+                src="./img/about_us/direction-1-370.jpg 1x"
                 width="370"
               />
               <p class="service__text">Десктопні додатки</p>
@@ -332,18 +348,26 @@
             <li class="service__item">
               <img
                 class="service__img"
-                src="./img/box-2.jpg"
                 alt="Дівчина дивиться у ноутбук"
                 width="370"
+                srcset="
+                  ./img/about_us/direction-2-370.jpg 1x,
+                  ./img/about_us/direction-2-740.jpg 2x
+                "
+                src="./img/about_us/direction-2-370.jpg 1x"
               />
               <p class="service__text">Мобільні додатки</p>
             </li>
             <li class="service__item">
               <img
                 class="service__img"
-                src="./img/box-3.jpg"
                 alt="Використання графічного планшету"
                 width="370"
+                srcset="
+                  ./img/about_us/direction-3-370.jpg 1x,
+                  ./img/about_us/direction-3-740.jpg 2x
+                "
+                src="./img/about_us/direction-3-370.jpg 1x"
               />
               <ptext class="service__text">Дизайнерські рішення</ptext>
             </li>
@@ -359,9 +383,19 @@
             <li class="team__card">
               <img
                 class="team__photo"
-                src="./img/img-0.jpg"
+                img
                 alt="Портрет Ігора Демʼяненко"
-                width="270"
+                srcset="
+                  ./img/our_team/team1-270.jpg 270w,
+                  ./img/our_team/team1-450.jpg 450w,
+                  ./img/our_team/team1-354.jpg 354w,
+                  ./img/our_team/team1-540.jpg 540w,
+                  ./img/our_team/team1-900.jpg 900w,
+                  ./img/our_team/team1-708.jpg 708w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px)
+                  450px, 100vw"
+                src="./img/our_team/team1-450.jpg"
               />
               <div class="team__desc">
                 <h3 class="team__title">Ігор Дем'яненко</h3>
@@ -401,9 +435,18 @@
             <li class="team__card">
               <img
                 class="team__photo"
-                src="./img/img-1.jpg"
                 alt="Портрет Ольги Рєпіної"
-                width="270"
+                srcset="
+                  ./img/our_team/team2-270.jpg 270w,
+                  ./img/our_team/team2-450.jpg 450w,
+                  ./img/our_team/team2-354.jpg 354w,
+                  ./img/our_team/team2-540.jpg 540w,
+                  ./img/our_team/team2-900.jpg 900w,
+                  ./img/our_team/team2-708.jpg 708w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px)
+              450px, 100vw"
+                src="./img/our_team/team2-450.jpg"
               />
               <div class="team__desc">
                 <h3 class="team__title">Ольга Рєпіна</h3>
@@ -443,9 +486,18 @@
             <li class="team__card">
               <img
                 class="team__photo"
-                src="./img/img-2.jpg"
                 alt="Портрет Миколи Тарасова"
-                width="270"
+                srcset="
+                  ./img/our_team/team3-270.jpg 270w,
+                  ./img/our_team/team3-450.jpg 450w,
+                  ./img/our_team/team3-354.jpg 354w,
+                  ./img/our_team/team3-540.jpg 540w,
+                  ./img/our_team/team3-900.jpg 900w,
+                  ./img/our_team/team3-708.jpg 708w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px)
+                  450px, 100vw"
+                src="./img/our_team/team3-450.jpg"
               />
               <div class="team__desc">
                 <h3 class="team__title">Микола Тарасов</h3>
@@ -485,9 +537,18 @@
             <li class="team__card">
               <img
                 class="team__photo"
-                src="./img/img-3.jpg"
                 alt="Портрет Михайла Єрмакова"
-                width="270"
+                srcset="
+                  ./img/our_team/team4-270.jpg 270w,
+                  ./img/our_team/team4-450.jpg 450w,
+                  ./img/our_team/team4-354.jpg 354w,
+                  ./img/our_team/team4-540.jpg 540w,
+                  ./img/our_team/team4-900.jpg 900w,
+                  ./img/our_team/team4-708.jpg 708w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px)
+              450px, 100vw"
+                src="./img/our_team/team4-450.jpg"
               />
               <div class="team__desc">
                 <h3 class="team__title">Михайло Єрмаков</h3>
